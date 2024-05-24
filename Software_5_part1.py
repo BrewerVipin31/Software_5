@@ -44,7 +44,7 @@ def moving(row, column, grid, steps, visited):
 
 if __name__ == "__main__":
     # Define the path to the input file
-    file_path = 'puzzle.txt'
+    file_path = 'Software_5/puzzle.txt'
     
     # Process the input file to create the grid
     grid = file_input(file_path)
