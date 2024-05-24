@@ -17,15 +17,7 @@ The input file should contain a grid where:
 - '#' represents obstacles or walls.
 
 ## Code Explanation
-- def file_input(file_path) :
-- Reads the input file and converts its content into a 2D array of characters.
-- def moving(row, column, grid, steps, visited) :
-- Recursively explores the grid from the current position.
-- Marks cells as accessible ('0') if they can be reached within the specified number of steps.
-- Uses a set to track visited states to avoid redundant work.
-- Main Function :
-- Reads the input file and creates the grid.
-- Identifies the starting position.
-- Initiates the movement from the starting position.
-- Counts and prints the number of accessible locations.
+- def file_input(file_path) : Reads the input file and converts its content into a 2D array of characters.
+- def moving(row, column, grid, steps, visited) : Recursively explores the grid from the current position. Marks cells as accessible ('0') if they can be reached within the specified number of steps. Uses a set to track visited states to avoid redundant work.
+- Main Function : Reads the input file and creates the grid. Identifies the starting position. Initiates the movement from the starting position. Counts and prints the number of accessible locations.
 
